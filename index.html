@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <script src="javascript/script.js" type="text/javascript"></script>
+
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="row">
+      <article class="row small-12" id="article">
+        <div class="row">
+          <div class="small-12" id="logo-div">
+            <img src="assets/images/logo.svg">
+          </div>
+          <div class="small-12 mobile-only">
+            <img class="" src="assets/images/hero-mobile.jpg">
+          </div>
+          <div class="small-12" id="main-content-div">
+            <div id="main-text-div">
+              <div id="main-title-div">
+                <h2 class="desaturated-red-font">WE'RE</h2>
+                <h2 class="dark-grayish-red-font">COMING</h2>
+                <h2 class="dark-grayish-red-font">SOON</h2>
+              </div>
+
+              <div id="main-paragraph-div">
+                <p class="desaturated-red-font">
+                  Hello fellow shoppers! We're currently building our new fashion store.
+                  Add your email below to stay up-to-date with announcements and our launch deals.
+                </p>
+              </div>
+            </div>
+            <div id="email-div">
+              <input class="desaturated-red-font" id="email-input" type="email"></input>
+              <img src="assets/images/icon-error.svg" class ="not-displayed" id="alert-icon">
+              <div id="email-button-div">
+                <button id="email-button"><img src="assets/images/icon-arrow.svg"></button>
+              </div>
+              <div>
+                <p id="alert-message" class="not-visible">Please provide a valid email</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <aside class="row small-12 desktop-only" id="aside">
+        <img class="" src="assets/images/hero-desktop.jpg">
+      </aside>
+    </div>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Ya_ine</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
